@@ -69,7 +69,7 @@ Para facilitar o seu uso e execução, neste repositório já temos um container
 Após o download, basta executar o Docker e, em seguida, executar o comando abaixo, na pasta raiz do projeto:
  
 ```
-docker-compose up -d q-rabbitmq
+docker compose up -d q-rabbitmq
 ````
  
 Após rodar esse comando, uma imagem do RabbitMQ estará executando localmente e podemos acessar sua interface gráfica, digitando no navegador: http://localhost:15672 
